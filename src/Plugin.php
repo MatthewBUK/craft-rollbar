@@ -22,6 +22,7 @@ use newism\rollbar\models\Settings;
 use Rollbar\Rollbar;
 use Rollbar\RollbarJsHelper;
 use yii\base\Event;
+use craft\helpers\App;
 
 
 /**
@@ -96,7 +97,7 @@ class Plugin extends BasePlugin
                     Rollbar::init(
                         [
                             'access_token' => $this->settings->accessToken,
-                            'environment' => CRAFT_ENVIRONMENT,
+                            'environment' => App::env('CRAFT_ENVIRONMENT'),
                         ]
                     );
                     Rollbar::error($event->exception);
@@ -123,7 +124,7 @@ class Plugin extends BasePlugin
                         'accessToken' => $this->settings->postClientItemAccessToken,
                         'captureUncaught' => true,
                         'payload' => [
-                            'environment' => CRAFT_ENVIRONMENT,
+                            'environment' => App::env('CRAFT_ENVIRONMENT'),
                         ],
                     ]);
                     $rollbarJs = $rollbarJsHelper->configJsTag() . $rollbarJsHelper->jsSnippet();
