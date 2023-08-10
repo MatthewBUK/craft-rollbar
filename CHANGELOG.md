@@ -4,6 +4,14 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/) and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## 1.4.0 - 2023-08-10
+### Fixed
+- Updated `rollbar/rollbar` dependency to `^3.1`
+- Updated `craftcms/cms` dependency to `^4.0.0-alpha.1`
+- Fixed model settings to updated function return to array
+- Fixed CRAFT_ENVIRONMENT to work in plugin
+- Locked plugin to min requirments to PHP 8 
+
 ## 1.3.0 - 2021-10-25
 ### Fixed
 - Updated `rollbar/rollbar` dependency to `^2.0`
