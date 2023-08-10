@@ -2,7 +2,7 @@
 
 <h1 align="center">Rollbar plugin for Craft CMS</h1>
 
-This plugin provides an [Rollbar](https://rollbar.com) integration for [Craft CMS v3.x](https://craftcms.com).
+This plugin provides an [Rollbar](https://rollbar.com) integration for [Craft CMS v4.x](https://craftcms.com).
 
 ## Features
 
