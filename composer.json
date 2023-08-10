@@ -10,9 +10,9 @@
         "rollbar"
     ],
     "support": {
-        "docs": "https://github.com/newism/craft-rollbar/blob/master/README.md",
-        "issues": "https://github.com/newism/craft-rollbar/issues",
-        "changelog": "https://github.com/newism/craft-rollbar/blob/master/CHANGELOG.md"
+        "docs": "https://github.com/MatthewBUK/craft-rollbar/blob/master/README.md",
+        "issues": "https://github.com/MatthewBUK/craft-rollbar/issues",
+        "changelog": "https://github.com/MatthewBUK/craft-rollbar/blob/master/CHANGELOG.md"
     },
     "license": "MIT",
     "authors": [
@@ -23,7 +23,7 @@
     ],
     "require": {
         "craftcms/cms": "^4.0.0-alpha.1",
-        "rollbar/rollbar": "^2.0"
+        "rollbar/rollbar": "^1.9"
     },
     "autoload": {
         "psr-4": {
