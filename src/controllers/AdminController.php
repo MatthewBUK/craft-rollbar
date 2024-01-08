@@ -8,6 +8,7 @@ use craft\web\Controller;
 use newism\rollbar\Plugin;
 use Rollbar\Rollbar;
 use yii\helpers\Url;
+use craft\helpers\App;
 
 class AdminController extends Controller
 {
@@ -24,7 +25,7 @@ class AdminController extends Controller
             Rollbar::init(
                 [
                     'access_token' => $accessToken,
-                    'environment' => CRAFT_ENVIRONMENT,
+                    'environment' =>  App::env('CRAFT_ENVIRONMENT'),
                 ]
             );
             Rollbar::info('test message from craft-rollbar');
