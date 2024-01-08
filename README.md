@@ -71,17 +71,9 @@ If you've found a bug, or would like to make a feature request,
 head to the [GitHub Repo](https://github.com/newism/craft-rollbar/issues) and file an issue. 
 Pull requests are also most welcome!
 
-### Twitter
-
-Get our attention on Twitter by using the `#craftcms` hashtag and mentioning [@newism](https://twitter.com/newism)
-
-### Stack Exchange
-
-Ask a question via the [Craft Stack Exchange](http://craftcms.stackexchange.com/) and tag your question with `plugin-newism-craft-rollbar`.
-
 ### Email
 
-Any feedback, comments, questions or suggestions please email us at `support at newism.com.au`.
+Any feedback, comments, questions or suggestions please email us at `mjbakeruk at gmail.com`.
 
 ## Licensing
 
@@ -93,4 +85,4 @@ For more information, see [Craft's Commercial Plugin Licensing](https://docs.cra
 
 <img src="./src/newism-logo.svg" width="100" height="100" alt="Afterpay for Craft Commerce icon">
 
-Brought to you by [Newism](https://newism.com.au)
+Brought to you by [Newism](https://newism.com.au) Maintained by [Mjbaker] 
