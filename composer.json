@@ -1,41 +1,35 @@
 {
-    "name": "newism/craft-rollbar",
-    "description": "Rollbar integration for CraftCMS",
-    "type": "craft-plugin",
-    "keywords": [
-        "craft",
-        "cms",
-        "craftcms",
-        "craft-plugin",
-        "rollbar"
-    ],
-    "support": {
-        "docs": "https://github.com/MatthewBUK/craft-rollbar/blob/master/README.md",
-        "issues": "https://github.com/MatthewBUK/craft-rollbar/issues",
-        "changelog": "https://github.com/MatthewBUK/craft-rollbar/blob/master/CHANGELOG.md"
-    },
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Newism",
-            "homepage": "https://newis.com.au"
-        }
-    ],
-    "require": {
-        "craftcms/cms": "^4.0.0-alpha.1",
-        "php": ">=8.0",
-        "yiisoft/yii2": "^2.0",
-        "rollbar/rollbar": "^3.1"
-    },
-    "autoload": {
-        "psr-4": {
-          "newism\\rollbar\\": "src/"
-        }
-    },
-    "extra": {
-        "name": "Rollbar",
-        "handle": "newism-rollbar",
-        "hasCpSettings": true,
-        "hasCpSection": false
+  "name": "newism/craft-rollbar",
+  "description": "Rollbar integration for CraftCMS",
+  "type": "craft-plugin",
+  "keywords": ["craft", "cms", "craftcms", "craft-plugin", "rollbar"],
+  "support": {
+    "docs": "https://github.com/MatthewBUK/craft-rollbar/blob/master/README.md",
+    "issues": "https://github.com/MatthewBUK/craft-rollbar/issues",
+    "changelog": "https://github.com/MatthewBUK/craft-rollbar/blob/master/CHANGELOG.md"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Newism",
+      "homepage": "https://newis.com.au"
     }
+  ],
+  "require": {
+    "craftcms/cms": ">=4.0.0",
+    "php": ">=8.0",
+    "yiisoft/yii2": "^2.0",
+    "rollbar/rollbar": "^5.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "newism\\rollbar\\": "src/"
+    }
+  },
+  "extra": {
+    "name": "Rollbar",
+    "handle": "newism-rollbar",
+    "hasCpSettings": true,
+    "hasCpSection": false
+  }
 }
