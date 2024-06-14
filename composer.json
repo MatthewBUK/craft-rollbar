@@ -2,6 +2,7 @@
   "name": "newism/craft-rollbar",
   "description": "Rollbar integration for CraftCMS",
   "type": "craft-plugin",
+  "version": "5.0.2",
   "keywords": ["craft", "cms", "craftcms", "craft-plugin", "rollbar"],
   "support": {
     "docs": "https://github.com/MatthewBUK/craft-rollbar/blob/master/README.md",
@@ -17,9 +18,17 @@
   ],
   "require": {
     "craftcms/cms": ">=4.0.0",
-    "php": ">=8.0",
+    "php": ">=8.2",
     "yiisoft/yii2": "^2.0",
     "rollbar/rollbar": "^3.1"
+  },
+  "config": {
+    "allow-plugins": {
+      "craftcms/plugin-installer": true,
+      "yiisoft/yii2-composer": true
+    },
+    "optimize-autoloader": true,
+    "sort-packages": true
   },
   "autoload": {
     "psr-4": {

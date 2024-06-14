@@ -3,6 +3,11 @@
 All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/) and this project adheres to [Semantic Versioning](http://semver.org/).
+
+## 5.0.1 - 2024-06-14
+### Update
+- Updating to work with Craft CMS 5.0
+
 ## 1.4.1 - 2024-01-08
 ### Fixed
 - Fixed CRAFT_ENVIRONMENT in AdminController "send test message to rollbar" to work in plugin
